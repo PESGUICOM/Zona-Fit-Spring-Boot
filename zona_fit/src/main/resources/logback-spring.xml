@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+           <!-- <pattern>[%thread] %-5level: %logger - %msg%n</pattern>  -->
+            <!-- para agregar salto de línea despúes de msg se agrega %n-->
+            <pattern>%msg</pattern>
+        </encoder>
+    </appender>
+
+    <root level="info">
+        <appender-ref ref="STDOUT"/>
+    </root>
+
+</configuration>
