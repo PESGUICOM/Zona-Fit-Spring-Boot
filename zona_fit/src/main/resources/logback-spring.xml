@@ -4,7 +4,7 @@
         <encoder>
            <!-- <pattern>[%thread] %-5level: %logger - %msg%n</pattern>  -->
             <!-- para agregar salto de línea despúes de msg se agrega %n-->
-            <pattern>%msg</pattern>
+            <pattern>%msg%n</pattern>
         </encoder>
     </appender>
 

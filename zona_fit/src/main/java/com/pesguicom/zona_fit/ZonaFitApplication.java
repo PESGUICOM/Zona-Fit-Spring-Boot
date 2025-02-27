@@ -11,7 +11,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import java.util.List;
 import java.util.Scanner;
 
-@SpringBootApplication
+//@SpringBootApplication  //desactivamos para que no se ejecute
 public class ZonaFitApplication implements CommandLineRunner {
 
 	//Inyectamos una dependencia de Servicio hacia la clase de presentación
