@@ -6,7 +6,6 @@ import jakarta.annotation.PostConstruct;
 import jakarta.faces.application.FacesMessage;
 import jakarta.faces.context.FacesContext;
 import jakarta.faces.view.ViewScoped;
-import jakarta.faces.view.facelets.FaceletCache;
 import lombok.Data;
 import org.primefaces.PrimeFaces;
 import org.slf4j.Logger;
